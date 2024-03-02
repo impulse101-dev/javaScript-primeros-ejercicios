@@ -1,0 +1,18 @@
+body{
+    background-color: royalblue;
+    margin: 2em;
+  }
+
+  #centro{
+    display: flex;
+    justify-content: center;
+    border: solid 0.15em rgb(15, 99, 133);
+    border-radius: 2em;
+  }
+
+  #centro:hover{
+    background-color: rgb(35, 35, 211);
+    transition: 1s;
+    cursor: pointer;
+    transform: scale(1.05);
+  }
